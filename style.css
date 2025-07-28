@@ -1,0 +1,53 @@
+body {
+  background-color: #e0f7fa;
+}
+
+section {
+  background-color: #ffb74d;
+  font-size: 1.2em;
+}
+
+.box {
+  background-color: #ce93d8;
+  font-size: 1.2em;
+}
+
+#main-text {
+  background-color: #4dd0e1;
+  font-size: 1.2em;
+}
+
+[data-role] {
+  background-color: #fff176;
+  font-size: 1.2em;
+}
+
+div span {
+  background-color: #a5d6a7;
+  font-size: 1.2em;
+}
+
+ul>li {
+  background-color: #ffccbc;
+  font-size: 1.2em;
+}
+
+h2.title {
+  background-color: #90caf9;
+  font-size: 1.2em;
+}
+
+p.note[data-info] {
+  background-color: #f8bbd0;
+  font-size: 1.2em;
+}
+
+article#main-article {
+  background-color: #ffe082;
+  font-size: 1.2em;
+}
+
+.container .card[data-type] {
+  background-color: #b2dfdb;
+  font-size: 1.2em;
+}

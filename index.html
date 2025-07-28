@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Домашнее задание 4</title>
+</head>
+
+<body>
+
+  <section>
+    <h2>Раздел</h2>
+    Применяется к тегам section, вес 1
+  </section>
+
+  <div class="box">Применяется к элементам с классом .box, вес 10</div>
+
+  <p id="main-text">Применяется к элементам с id #main-text, вес 100</p>
+
+  <div data-role="info">Применяется к элементам с атрибутом [data-role], вес 10</div>
+
+  <div><span>Применяется к тегам span, вложенным в div, вес 2</span></div>
+
+  <ul>
+    <li>Применяется к тегам li, которые являются прямыми потомками ul, вес 2</li>
+  </ul>
+
+  <h2 class="title">Применяется к тегам h2 с классом .title, вес 11</h2>
+
+  <p class="note" data-info="true">Применяется к тегам p.note[data-info], вес 21</p>
+
+  <article id="main-article">
+    <h2>Основная</h2>
+    Применяется к тегам article с id #main-article, вес 101
+  </article>
+
+  <div class="container">
+    <div class="card" data-type="promo">Применяется к элементам .card[data-type], вложенным в .container, вес 30
+    </div>
+  </div>
+
+</body>
+
+</html>
